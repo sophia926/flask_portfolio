@@ -4,55 +4,90 @@
 {% block body %}
     <!-- Start of body content specific to page -->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-white"><strong>Python Home Page</strong></h1>
+        <h1 class="text-white"><strong>Sophia Tang</strong></h1>
         <div class="row">
             <div class="col-4">
                 <div class="card">
-                    <img class="card-img-top" src="{{ url_for('static', filename='assets/python.jpeg') }}" alt="Python Development" height="250">
+                    <img class="card-img-top" src="{{ url_for('static', filename='assets/flowermoon.jpg') }}" alt="flowermoon">
                     <div class="card-body">
-                    <h5 class="card-title">What should <mark>Student Developers learn</mark>?</h5>
+                    <h5 class="card-title">Who is <mark>Sophia Tang</mark>?</h5>
                     <p class="card-text">
-                        <ol>
-                            <li>Python 3.9 is used for most of our backend PBL. HTML, CSS, JavaScript will be used in frontend</li>
-                            <li>Visuals Studio Code (VS Code) is the primary editor, Interactive Development Environment (IDE).</li>
-                            <li>GitHub.  Managing and sharing code change, branches, pull requests, issues, and more will be through GitHub.</li>
-                            <li>DevOps. Python programmers should have a passion for managing the environment and learning automation (Git, Linux, Bash, Python Packages, Docker).</li>
-                            <li>API and Microservice using Flask.  Mastering development techniques in creating and consuming RESTful APIs</li>
-                        </ol>
+                        <ul>
+                            <li>I am a sophomore at Del Norte High School! I live in 4s ranch in San Diego, CA.</li>
+                            <li>Classes I am taking: AP Calc AB, Honors Humanities, AP World History, AP CSP, AP Chem, AP Chinese</li>
+                            <li>I love reading, talking to family and friends, playing piano, and listening to music!</li>
+                            <li>My favorite color is pink, especially pastel pink. I like pastel colors.</li>
+                        </ul>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://sophia926.github.io/fastpages/" class="btn btn-primary">Click to see my blog!</a>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card">
-                    <img class="card-img-top" src="{{ url_for('static', filename='assets/flask.png') }}" alt="Flask Development" height="250">
+                    <img class="card-img-top" src="{{ url_for('static', filename='assets/chinesecuisine.jpg') }}" alt="Flask Development" height="250">
                     <div class="card-body">
-                    <h5 class="card-title">What is <mark>Flask</mark>? How do I start Web development?</h5>
+                    <h5 class="card-title">What are Sophia's <mark>Favorite Foods</mark>?</h5>
                     <p class="card-text">
-                        <ol>
-                            <li>Flask Framework is the popular Web Application development framework of Python.</li>
-                            <li>Blueprint is utility to help abstract complexity, moving information in independent files and directories.</li>
-                            <li>HTML using Bootstrap is a great way to build interesting pages and reduce CSS</li>
-                            <li>Jinja2 is a server-side Python like template engine, supports HTML5 web development, and provides full integration with Flask.</li>
-                        </ol>
+                        <ul>
+                            <li>Chinese cuisine, such as noodles, bao zi, dumplings, etc.</li>
+                            <li>Avocado toast with tomatoes, fried egg, and some other veggies</li>
+                            <li>Not really so much Italian food (pasta is sometimes too cheesy)</li>
+                            <li>Vietnamese Pho!</li>
+                        </ul>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="https://www.tasteofhunan.com/" class="btn btn-primary">Click to see my favorite restaurant!</a>
                     </div>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card">
-                    <img class="card-img-top" src="{{ url_for('static', filename='assets/pythondb.png') }}" alt="Backend and Persistence" height="250">
+                    <img class="card-img-top" src="{{ url_for('static', filename='assets/schedule.jpg') }}" alt="Backend and Persistence" height="250">
                     <div class="card-body">
-                    <h5 class="card-title">How do you manage <mark>Persistent data</mark> with Python?</h5>
+                    <h5 class="card-title">What is Sophia's <mark>schedule</mark> at school?</h5>
                     <p class="card-text">
-                        <ol>
-                            <li>A Database is an example of persistent data that is held on a computer.  Programming languages and frameworks allow you to store and retrive data.</li>
-                            <li>SQL stands for Structured Query Language · SQL lets you access and manipulate databases and has become a long lasting development standard.</li>
-                            <li>SQLAlchemy is the Python SQL toolkit and Object Relational Mapper (ORM) that gives application developers the full power and flexibility of SQL.</li>
-                            <li>There are many newer and sometimes easier Database languages and frameworks.  Mongo, DynamoDB, Neo4J are Databases being used by students developers in last 3 years.</li>
-                        </ol>
+                        <table>
+                            <thead>
+                              <tr>
+                                <th>Period</th>
+                                <th>Course Title</th>
+                                <th>Room Name</th>
+                                <th>Teacher</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>AP Calculus AB</td>
+                                <td>L102</td>
+                                <td>Ms. Nydam</td>
+                              </tr>
+                              <tr>
+                                <td>2</td>
+                                <td>Honors Humanities</td>
+                                <td>G117</td>
+                                <td>Mrs. Philyaw</td>
+                              </tr>
+                              <tr>
+                                <td>3</td>
+                                <td>AP World History 1</td>
+                                <td>L114</td>
+                                <td>Ms. Volger</td>
+                              </tr>
+                              <tr>
+                                <td>4</td>
+                                <td>AP CS Principles 1</td>
+                                <td>D103</td>
+                                <td>Mr. Yeung</td>
+                              </tr>
+                              <tr>
+                                <td>5</td>
+                                <td>AP Chemistry 4</td>
+                                <td>K104</td>
+                                <td>Mrs. Callicott</td>
+                              </tr>
+                            </tbody>
+                            </table>
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
