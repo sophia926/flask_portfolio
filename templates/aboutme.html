@@ -2,16 +2,23 @@
 {% extends "layouts/base.html" %}
 
 <!- This variable sets name of browser tab  -->
-{% set project = "Stubby" %}
+{% set project = "About Me" %}
 
 <!- This is a replacement block for Body in base.html -->
 {% block body %}
     <!- Try building a new body here, bootstrap is a wise choice ->
     <div class="px-5 py-5 mx-auto">
-        <h1 class="text-primary"><strong>Stubby Body</strong></h1>
+        <h1 class="text-primary"><strong>About Me</strong></h1>
         <p class="text-secondary">Sophia Tang, I'm a sophomore from Del Norte High School :)</p>
+
+        <div>
+          <p>These are some links to my other academic pages :D</p>
+          <a href="https://sophia926.github.io/fastpages/" class="btn btn-primary">My Blog (fastpages)!</a>
+          <a href="https://github.com/sophia926/" class="btn btn-primary">My GitHub</a>
+        </div>
     </div>
 
+    <p>Here is my schedule again :)</p>
     <style type="text/css">
         .tg  {border-collapse:collapse;border-spacing:0;}
         .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
